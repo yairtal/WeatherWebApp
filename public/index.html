@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Weather Web App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/flick/jquery-ui.css" />
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <section>
+            <h1 id="city">Weather Web App</h1>
+            <p>
+                <img id="weathericon" src="#">
+                <a id="temperature" href="#" onclick="switchUnits(); return false;" title="Click to switch between metric and imperial units"></a>
+                <span id="weather">by @yair_tal</span>
+            </p>
+        </section>
+
+        <section>
+            <form action="" method="post" name="form_citydetails" id="form_citydetails" enctype="multipart/form-data" onsubmit="return false;">
+                <input class="ff_elem" type="text" name="ff_nm_from[]" value="" id="f_elem_city" placeholder="Please enter city name"/>
+            </form>
+        </section>
+        <footer>
+            <p>Powered by <a href="http://flickr.com/services/api/">Flickr</a> and <a href="http://openweathermap.org">Openweathermap.org</a>. Created by <a href="https://twitter.com/yair_tal">@yair_tal</a>. <a id="image-source" href="#">Image source</a>.</p>
+        </footer>
+
+        <script type="text/javascript" src="http://l2.io/ip.js?var=myip"></script>
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

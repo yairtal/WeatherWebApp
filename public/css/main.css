@@ -1,0 +1,66 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+    background: #888;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section{
+    min-height: 100%;
+}
+
+h1{
+    font-size: 2em;
+    padding: 0 0.3em;
+    line-height: 1em;
+}
+
+p, form{
+    padding: 0 1em;
+}
+
+form {
+    font-size: 0.8em;
+    color: #222222;
+}
+
+form input {
+    min-height: 40px;
+    min-width: 330px;
+}
+
+img {
+    margin-bottom: -0.5em;
+}
+
+a{
+    color: #fff;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.5em;
+}
+
+#temperature{
+    text-decoration: none;
+    border-bottom: 0.05em dotted white;
+}
+
+.ui-menu .ui-menu-item a,.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+    font-weight: normal;
+    margin: -1px;
+    text-align:left;
+    font-size:14px;
+}
+.ui-autocomplete-loading { background: white right center no-repeat; }
+
+
